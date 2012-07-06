@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B261785D15A69CF40018BF74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B261785C15A69CF40018BF74 /* UIKit.framework */; };
+		B261785F15A69CF40018BF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B261785E15A69CF40018BF74 /* Foundation.framework */; };
+		B261786115A69CF40018BF74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B261786015A69CF40018BF74 /* CoreGraphics.framework */; };
+		B261786715A69CF40018BF74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B261786515A69CF40018BF74 /* InfoPlist.strings */; };
+		B261786915A69CF40018BF74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B261786815A69CF40018BF74 /* main.m */; };
+		B261786D15A69CF40018BF74 /* AwayFromDeskIPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B261786C15A69CF40018BF74 /* AwayFromDeskIPhoneAppDelegate.m */; };
+		B261787015A69CF40018BF74 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B261786E15A69CF40018BF74 /* MainStoryboard_iPhone.storyboard */; };
+		B261787315A69CF40018BF74 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B261787115A69CF40018BF74 /* MainStoryboard_iPad.storyboard */; };
+		B261787615A69CF40018BF74 /* AwayFromDeskIPhoneFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B261787515A69CF40018BF74 /* AwayFromDeskIPhoneFirstViewController.m */; };
+		B261787815A69CF40018BF74 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B261787715A69CF40018BF74 /* first.png */; };
+		B261787A15A69CF40018BF74 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B261787915A69CF40018BF74 /* first@2x.png */; };
+		B261787D15A69CF40018BF74 /* AwayFromDeskIPhoneSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B261787C15A69CF40018BF74 /* AwayFromDeskIPhoneSecondViewController.m */; };
+		B261787F15A69CF40018BF74 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B261787E15A69CF40018BF74 /* second.png */; };
+		B261788115A69CF40018BF74 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B261788015A69CF40018BF74 /* second@2x.png */; };
+		B261788915A69CF40018BF74 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B261788815A69CF40018BF74 /* SenTestingKit.framework */; };
+		B261788A15A69CF40018BF74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B261785C15A69CF40018BF74 /* UIKit.framework */; };
+		B261788B15A69CF40018BF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B261785E15A69CF40018BF74 /* Foundation.framework */; };
+		B261789315A69CF40018BF74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B261789115A69CF40018BF74 /* InfoPlist.strings */; };
+		B261789615A69CF40018BF74 /* MultiTabiOS6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B261789515A69CF40018BF74 /* MultiTabiOS6Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B261788C15A69CF40018BF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B261784F15A69CF30018BF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B261785715A69CF40018BF74;
+			remoteInfo = MultiTabiOS6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B261785815A69CF40018BF74 /* MultiTabiOS6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTabiOS6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B261785C15A69CF40018BF74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B261785E15A69CF40018BF74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B261786015A69CF40018BF74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B261786415A69CF40018BF74 /* MultiTabiOS6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiTabiOS6-Info.plist"; sourceTree = "<group>"; };
+		B261786615A69CF40018BF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B261786815A69CF40018BF74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B261786A15A69CF40018BF74 /* MultiTabiOS6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiTabiOS6-Prefix.pch"; sourceTree = "<group>"; };
+		B261786B15A69CF40018BF74 /* AwayFromDeskIPhoneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayFromDeskIPhoneAppDelegate.h; sourceTree = "<group>"; };
+		B261786C15A69CF40018BF74 /* AwayFromDeskIPhoneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayFromDeskIPhoneAppDelegate.m; sourceTree = "<group>"; };
+		B261786F15A69CF40018BF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B261787215A69CF40018BF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B261787415A69CF40018BF74 /* AwayFromDeskIPhoneFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayFromDeskIPhoneFirstViewController.h; sourceTree = "<group>"; };
+		B261787515A69CF40018BF74 /* AwayFromDeskIPhoneFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayFromDeskIPhoneFirstViewController.m; sourceTree = "<group>"; };
+		B261787715A69CF40018BF74 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B261787915A69CF40018BF74 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B261787B15A69CF40018BF74 /* AwayFromDeskIPhoneSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayFromDeskIPhoneSecondViewController.h; sourceTree = "<group>"; };
+		B261787C15A69CF40018BF74 /* AwayFromDeskIPhoneSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayFromDeskIPhoneSecondViewController.m; sourceTree = "<group>"; };
+		B261787E15A69CF40018BF74 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B261788015A69CF40018BF74 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B261788715A69CF40018BF74 /* MultiTabiOS6Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTabiOS6Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B261788815A69CF40018BF74 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B261789015A69CF40018BF74 /* MultiTabiOS6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiTabiOS6Tests-Info.plist"; sourceTree = "<group>"; };
+		B261789215A69CF40018BF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B261789415A69CF40018BF74 /* MultiTabiOS6Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTabiOS6Tests.h; sourceTree = "<group>"; };
+		B261789515A69CF40018BF74 /* MultiTabiOS6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTabiOS6Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B261785515A69CF40018BF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B261785D15A69CF40018BF74 /* UIKit.framework in Frameworks */,
+				B261785F15A69CF40018BF74 /* Foundation.framework in Frameworks */,
+				B261786115A69CF40018BF74 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B261788315A69CF40018BF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B261788915A69CF40018BF74 /* SenTestingKit.framework in Frameworks */,
+				B261788A15A69CF40018BF74 /* UIKit.framework in Frameworks */,
+				B261788B15A69CF40018BF74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B261784D15A69CF30018BF74 = {
+			isa = PBXGroup;
+			children = (
+				B261786215A69CF40018BF74 /* MultiTabiOS6 */,
+				B261788E15A69CF40018BF74 /* MultiTabiOS6Tests */,
+				B261785B15A69CF40018BF74 /* Frameworks */,
+				B261785915A69CF40018BF74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B261785915A69CF40018BF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B261785815A69CF40018BF74 /* MultiTabiOS6.app */,
+				B261788715A69CF40018BF74 /* MultiTabiOS6Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B261785B15A69CF40018BF74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B261785C15A69CF40018BF74 /* UIKit.framework */,
+				B261785E15A69CF40018BF74 /* Foundation.framework */,
+				B261786015A69CF40018BF74 /* CoreGraphics.framework */,
+				B261788815A69CF40018BF74 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B261786215A69CF40018BF74 /* MultiTabiOS6 */ = {
+			isa = PBXGroup;
+			children = (
+				B261786B15A69CF40018BF74 /* AwayFromDeskIPhoneAppDelegate.h */,
+				B261786C15A69CF40018BF74 /* AwayFromDeskIPhoneAppDelegate.m */,
+				B261786E15A69CF40018BF74 /* MainStoryboard_iPhone.storyboard */,
+				B261787115A69CF40018BF74 /* MainStoryboard_iPad.storyboard */,
+				B261787415A69CF40018BF74 /* AwayFromDeskIPhoneFirstViewController.h */,
+				B261787515A69CF40018BF74 /* AwayFromDeskIPhoneFirstViewController.m */,
+				B261787715A69CF40018BF74 /* first.png */,
+				B261787915A69CF40018BF74 /* first@2x.png */,
+				B261787B15A69CF40018BF74 /* AwayFromDeskIPhoneSecondViewController.h */,
+				B261787C15A69CF40018BF74 /* AwayFromDeskIPhoneSecondViewController.m */,
+				B261787E15A69CF40018BF74 /* second.png */,
+				B261788015A69CF40018BF74 /* second@2x.png */,
+				B261786315A69CF40018BF74 /* Supporting Files */,
+			);
+			path = MultiTabiOS6;
+			sourceTree = "<group>";
+		};
+		B261786315A69CF40018BF74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B261786415A69CF40018BF74 /* MultiTabiOS6-Info.plist */,
+				B261786515A69CF40018BF74 /* InfoPlist.strings */,
+				B261786815A69CF40018BF74 /* main.m */,
+				B261786A15A69CF40018BF74 /* MultiTabiOS6-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B261788E15A69CF40018BF74 /* MultiTabiOS6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B261789415A69CF40018BF74 /* MultiTabiOS6Tests.h */,
+				B261789515A69CF40018BF74 /* MultiTabiOS6Tests.m */,
+				B261788F15A69CF40018BF74 /* Supporting Files */,
+			);
+			path = MultiTabiOS6Tests;
+			sourceTree = "<group>";
+		};
+		B261788F15A69CF40018BF74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B261789015A69CF40018BF74 /* MultiTabiOS6Tests-Info.plist */,
+				B261789115A69CF40018BF74 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B261785715A69CF40018BF74 /* MultiTabiOS6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B261789915A69CF40018BF74 /* Build configuration list for PBXNativeTarget "MultiTabiOS6" */;
+			buildPhases = (
+				B261785415A69CF40018BF74 /* Sources */,
+				B261785515A69CF40018BF74 /* Frameworks */,
+				B261785615A69CF40018BF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiTabiOS6;
+			productName = MultiTabiOS6;
+			productReference = B261785815A69CF40018BF74 /* MultiTabiOS6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B261788615A69CF40018BF74 /* MultiTabiOS6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B261789C15A69CF40018BF74 /* Build configuration list for PBXNativeTarget "MultiTabiOS6Tests" */;
+			buildPhases = (
+				B261788215A69CF40018BF74 /* Sources */,
+				B261788315A69CF40018BF74 /* Frameworks */,
+				B261788415A69CF40018BF74 /* Resources */,
+				B261788515A69CF40018BF74 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B261788D15A69CF40018BF74 /* PBXTargetDependency */,
+			);
+			name = MultiTabiOS6Tests;
+			productName = MultiTabiOS6Tests;
+			productReference = B261788715A69CF40018BF74 /* MultiTabiOS6Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B261784F15A69CF30018BF74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AwayFromDeskIPhone;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B261785215A69CF30018BF74 /* Build configuration list for PBXProject "MultiTabiOS6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B261784D15A69CF30018BF74;
+			productRefGroup = B261785915A69CF40018BF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B261785715A69CF40018BF74 /* MultiTabiOS6 */,
+				B261788615A69CF40018BF74 /* MultiTabiOS6Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B261785615A69CF40018BF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B261786715A69CF40018BF74 /* InfoPlist.strings in Resources */,
+				B261787015A69CF40018BF74 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B261787315A69CF40018BF74 /* MainStoryboard_iPad.storyboard in Resources */,
+				B261787815A69CF40018BF74 /* first.png in Resources */,
+				B261787A15A69CF40018BF74 /* first@2x.png in Resources */,
+				B261787F15A69CF40018BF74 /* second.png in Resources */,
+				B261788115A69CF40018BF74 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B261788415A69CF40018BF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B261789315A69CF40018BF74 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B261788515A69CF40018BF74 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B261785415A69CF40018BF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B261786915A69CF40018BF74 /* main.m in Sources */,
+				B261786D15A69CF40018BF74 /* AwayFromDeskIPhoneAppDelegate.m in Sources */,
+				B261787615A69CF40018BF74 /* AwayFromDeskIPhoneFirstViewController.m in Sources */,
+				B261787D15A69CF40018BF74 /* AwayFromDeskIPhoneSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B261788215A69CF40018BF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B261789615A69CF40018BF74 /* MultiTabiOS6Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B261788D15A69CF40018BF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B261785715A69CF40018BF74 /* MultiTabiOS6 */;
+			targetProxy = B261788C15A69CF40018BF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B261786515A69CF40018BF74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B261786615A69CF40018BF74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B261786E15A69CF40018BF74 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B261786F15A69CF40018BF74 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B261787115A69CF40018BF74 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B261787215A69CF40018BF74 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B261789115A69CF40018BF74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B261789215A69CF40018BF74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B261789715A69CF40018BF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B261789815A69CF40018BF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B261789A15A69CF40018BF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTabiOS6/MultiTabiOS6-Prefix.pch";
+				INFOPLIST_FILE = "MultiTabiOS6/MultiTabiOS6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B261789B15A69CF40018BF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTabiOS6/MultiTabiOS6-Prefix.pch";
+				INFOPLIST_FILE = "MultiTabiOS6/MultiTabiOS6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B261789D15A69CF40018BF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiTabiOS6.app/MultiTabiOS6";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTabiOS6/MultiTabiOS6-Prefix.pch";
+				INFOPLIST_FILE = "MultiTabiOS6Tests/MultiTabiOS6Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B261789E15A69CF40018BF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiTabiOS6.app/MultiTabiOS6";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTabiOS6/MultiTabiOS6-Prefix.pch";
+				INFOPLIST_FILE = "MultiTabiOS6Tests/MultiTabiOS6Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B261785215A69CF30018BF74 /* Build configuration list for PBXProject "MultiTabiOS6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B261789715A69CF40018BF74 /* Debug */,
+				B261789815A69CF40018BF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B261789915A69CF40018BF74 /* Build configuration list for PBXNativeTarget "MultiTabiOS6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B261789A15A69CF40018BF74 /* Debug */,
+				B261789B15A69CF40018BF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B261789C15A69CF40018BF74 /* Build configuration list for PBXNativeTarget "MultiTabiOS6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B261789D15A69CF40018BF74 /* Debug */,
+				B261789E15A69CF40018BF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B261784F15A69CF30018BF74 /* Project object */;
+}
